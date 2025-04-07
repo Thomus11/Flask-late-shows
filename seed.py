@@ -14,9 +14,9 @@ def seed_database():
         db.session.add_all(episodes)
 
         guests = [
-            Guest(name="Jennifer Aniston", occupation="actress"),
-            Guest(name="Robin Williams", occupation="comedian"),
-            Guest(name="Ellen DeGeneres", occupation="talk show host")
+            Guest(name="Joan Wambui", occupation="actress"),
+            Guest(name="Thomus Maina", occupation="comedian"),
+            Guest(name="Brian Iraru", occupation="talk show host")
         ]
         db.session.add_all(guests)
 
